@@ -25,7 +25,7 @@ This project is a Livestream Overlay Management System that allows users to mana
 ### Backend Setup
 1. Clone the repository:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/Harsh-GAMMARAYS/livestream-app.git
    cd backend
    ```
 2. Install dependencies:
@@ -35,7 +35,7 @@ This project is a Livestream Overlay Management System that allows users to mana
 3. Set up environment variables in a `.env` file:
    ```bash
    PORT=5000
-   MONGO_URI=<your-mongo-uri>
+   MONGO_URI=mongodb://localhost:27017/livestream
    ```
 4. Start the server:
    ```bash
